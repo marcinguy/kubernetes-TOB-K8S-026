@@ -10,7 +10,7 @@ NAME                  TYPE                                  DATA      AGE
 AWS_PROFILE=testing kubectl get secret <token-name> -o json | jq -Mr '.data.token' | base64 -d
 ```
 
-Go to your K8s Node
+The output from previous command is the Bearer token. Put it under $MY_TOKEN below. Go to your K8s Node
 
 ```
 curl -k -H "Authorization: Bearer $MY_TOKEN" "https://<node-ip>:10250/logs/"
