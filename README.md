@@ -1,3 +1,6 @@
+Source:
+https://github.com/kubernetes/community/blob/master/wg-security-audit/findings/Kubernetes%20Final%20Report.pdf
+
 # kubernetes-TOB-K8S-026
 Directory traversal of host logs running kube-apiserver and kubelet
 
